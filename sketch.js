@@ -150,7 +150,7 @@ function draw() {
     startScreen();
     if(!menuSong.isPlaying()){
       menuSong.loop();
-      menuSong.setVolume(0.3)
+      menuSong.setVolume(0.2)
       characterSong.stop();
       dressSong.stop();
     }
@@ -158,7 +158,7 @@ function draw() {
     characterScreen();
     if(!characterSong.isPlaying()){
       characterSong.loop();
-      characterSong.setVolume(0.3)
+      characterSong.setVolume(0.2)
       menuSong.stop();
       dressSong.stop();
     }
@@ -166,7 +166,7 @@ function draw() {
     dressScreen();
     if(!dressSong.isPlaying()){
       dressSong.loop();
-      dressSong.setVolume(0.3)
+      dressSong.setVolume(0.2)
       menuSong.stop();
       characterSong.stop();
     }
@@ -215,63 +215,63 @@ function characterScreen(){
     cursor(HAND);
     if(!nayhover.isPlaying()){
       nayhover.play();
-      nayhover.setVolume(0.3);
+      nayhover.setVolume(0.2);
     }
   } else if(mouseX >= 240 && mouseX <= 355 && mouseY >= 10 && mouseY <= 140){
     image(jeong2, 220,-5,160,160);
     cursor(HAND);
     if(!jeonghover.isPlaying()){
       jeonghover.play();
-      jeonghover.setVolume(0.3);
+      jeonghover.setVolume(0.2);
     }
   } else if(mouseX >= 440 && mouseX <= 555 && mouseY >= 10 && mouseY <= 140){
     image(momo2, 420, -5, 160,160);
     cursor(HAND);
     if(!momohover.isPlaying()){
       momohover.play();
-      momohover.setVolume(0.3);
+      momohover.setVolume(0.2);
     }
   } else if(mouseX >= 40 && mouseX <= 155 && mouseY >= 185 && mouseY <= 315){
     image(sana2,20,170,160,160);
     cursor(HAND);
     if(!sanahover.isPlaying()){
       sanahover.play();
-      sanahover.setVolume(0.3);
+      sanahover.setVolume(0.2);
     }
   } else if (mouseX >= 240 && mouseX <= 355 && mouseY >= 185 && mouseY <= 315){
     image(jih2,220,170,160,160);
     cursor(HAND);
     if(!jihhover.isPlaying()){
       jihhover.play();
-      jihhover.setVolume(0.3);
+      jihhover.setVolume(0.2);
     }
   } else if (mouseX >= 440 && mouseX <= 555 && mouseY >= 185 && mouseY <= 315){
     image(mina2,420,170,160,160);
     cursor(HAND);
     if(!minahover.isPlaying()){
       minahover.play();
-      minahover.setVolume(0.3);
+      minahover.setVolume(0.2);
     }
   } else if(mouseX >= 40 && mouseX <= 155 && mouseY >= 365 && mouseY <= 515){
     image(dah2, 20,345,160,160);
     cursor(HAND);
     if(!dahhover.isPlaying()){
       dahhover.play();
-      dahhover.setVolume(0.3);
+      dahhover.setVolume(0.2);
     }
   } else if(mouseX >= 240 && mouseX <= 355 && mouseY >= 365 && mouseY <= 515){
     image(chae2,220,345,160,160);
     cursor(HAND);
     if(!chaehover.isPlaying()){
       chaehover.play()
-      chaehover.setVolume(0.3);
+      chaehover.setVolume(0.2);
     }
   } else if(mouseX >= 440 && mouseX <= 555 && mouseY >= 365 && mouseY <= 515){
     image(tzu2,420,345,160,160);
     cursor(HAND);
     if(!tzuhover.isPlaying()){
       tzuhover.play();
-      tzuhover.setVolume(0.3);
+      tzuhover.setVolume(0.2);
     }
   } else{
     cursor(ARROW);
